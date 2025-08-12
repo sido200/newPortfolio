@@ -74,10 +74,10 @@ const Contact: React.FC = () => {
     try {
       // Configuration EmailJS (remplacez par vos vraies clés)
       await emailjs.sendForm(
-        'YOUR_SERVICE_ID', // Remplacez par votre Service ID
-        'YOUR_TEMPLATE_ID', // Remplacez par votre Template ID
+        'service_x9o8bg6', // Remplacez par votre Service ID
+        'template_g9k3k89', // Remplacez par votre Template ID
         form.current,
-        'YOUR_PUBLIC_KEY' // Remplacez par votre Public Key
+        'C06uufgh2BHldO0Gz' // Remplacez par votre Public Key
       );
       
       setStatus('success');
